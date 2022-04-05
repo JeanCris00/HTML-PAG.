@@ -1,0 +1,31 @@
+h1{
+    color: violet;
+    font-family: calibri, Arial, Helvetica, open sans;
+}
+p{
+    color: silver;
+    font-family: calibri, Arial, Helvetica, open sans;
+}
+.menu ul{
+    list-style-type:none; /*Remueve las viñetas*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*oculta el scroll*/
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+.menu li{
+    float: left;
+}
+.menu a{
+    color: #666; /*Color de texto*/
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu li a.active{
+    color: white;
+    background-color:  #4caf50;
+}
+.menu li:hover:not(active){
+    background-color: #ddd;
+}
